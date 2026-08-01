@@ -1,7 +1,7 @@
 ---
-title: "Compilação e Execução de Programas MPI"
-publishedAt: "2026-07-15"
-summary: "Comandos para compilar e executar programas MPI localmente e em uma máquina remota."
+title: "Compilação e Execução de Programas C/MPI"
+publishedAt: "2026-08-1"
+summary: "Comandos para compilar e executar programas C/MPI localmente e em uma máquina remota no LAD."
 ---
 
 ## Compilação em máquina local
