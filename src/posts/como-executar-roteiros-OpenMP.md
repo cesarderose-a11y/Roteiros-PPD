@@ -6,10 +6,9 @@ summary: "Instruções para configurar os ambientes de execução dos roteiros O
 
 ## Execução dos roteiros em máquina local
 
-Esta é a opção mais simples pois necessita apenas a instalação do compilador gcc que já tem suporte nativo ao OpenMp a partir da versão 4.2.0. (ver instruções específicas de instalação sua distribuição).  
+Esta é a opção mais simples pois necessita apenas a instalação do compilador gcc que já tem suporte nativo ao OpenMp a partir da versão 4.2.0 de 2007 (ver instruções específicas de instalação sua distribuição).  
 
 > atentar que versões mais recentes do gcc tem suporte para versões mais novas do OpenMP
-
 
 ### Opção 1: terminal de um máquina rodando Linux nativo
 
