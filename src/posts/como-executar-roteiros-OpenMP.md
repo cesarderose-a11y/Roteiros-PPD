@@ -4,7 +4,9 @@ publishedAt: "2026-08-27"
 summary: "Instruções para configurar os ambientes de execução dos roteiros OpenMP"
 ---
 
-## Execução em máquina local
+## Execução dos roteiros em máquina local
+
+# Opção 1: máquina rodando Linux
 
 ```sh
 mpicc file.c -o file_exec
