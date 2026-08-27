@@ -14,6 +14,11 @@ Esta é a opção mais simples pois necessita apenas a instalação do compilado
 
 ### Opção 2: terminal de uma máquina rodando MacOS 
 
+Esta é a opção também requer pouca instalação adicional pois o terminal nativo do MacOS executa uma versão de Unix (baseado no FreeBSD e Darwin). Isso significa que você encontrará praticamente a mesma interface de linha de comando do Linux, com algumas pequenas variações de comportamento e ferramentas de sistema distintas. Como precisamos apenas do gcc a partir da versão 4.2.0 de 2007 instalado, estas pequenas variações não atrapalham a execução dos roteiros (ver instruções específicas de instalação do gcc no MacOS). 
+
+> atentar que o MacOs vem com uma versão nativa de compilador para C chamada clang (com um alias para gcc), que tem também suporte ao OpenMP, mas com algumas pequenas particularidades que podem atrapalhar as execuções dos nosso roteiros. Para fins de compatibilidade o mais tranquilo é instalar o gcc e garantir que está chamado a versão correto.
+
+
 
 ### Opção 3: emulador de Linux em uma máquina rodando Windows 
 
