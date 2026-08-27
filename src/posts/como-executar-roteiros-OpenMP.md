@@ -6,6 +6,8 @@ summary: "Instruções para configurar os ambientes de execução dos roteiros O
 
 ## Execução dos roteiros em máquina local
 
+Esta é a opção mais simples pois necessita apenas a instalação do compilador gcc (ver instruções específicas de instalação sua distribuição).  
+
 ### Opção 1: terminal de um máquina rodando Linux nativo
 
 
