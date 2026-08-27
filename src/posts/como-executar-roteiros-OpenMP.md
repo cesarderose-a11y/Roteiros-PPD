@@ -29,7 +29,7 @@ ou
 ```sh
 gcc-14 --version
 ```
-> substituir o número 14 pela versão do gcc instalado na sua máquina
+> substituir o número `14` pela versão do gcc instalado na sua máquina
 
 ### Opção 3: emulador de Linux em uma máquina rodando Windows 
 
@@ -39,7 +39,7 @@ Esta é a opção requer a instalação adicional de um emulador de Linux no Win
 wsl --install
 ```
 
-Esse comando habilita os recursos necessários do sistema, baixa o kernel do Linux mais recente e instala a distribuição padrão (Ubuntu). Após reiniciar a máquina, a janela do Ubuntu será aberta automaticamente. Aguarde a inicialização e digite um nome de usuário e senha para o ambiente Linux. Depois reinicie o computador e execute o WSL. No terminal faça a instalação do pacote build essentials que inclui o gcc com os comandos:
+Esse comando habilita os recursos necessários do sistema, baixa o kernel do Linux mais recente e instala a distribuição padrão (Ubuntu). Após reiniciar a máquina, a janela do Ubuntu será aberta automaticamente. Aguarde a inicialização e digite um nome de usuário e senha para o ambiente Linux. Depois reinicie o computador e execute o WSL. No terminal faça a instalação do pacote `build essentials` que inclui o gcc com os comandos:
 
 ```sh
 sudo apt update && sudo apt upgrade -y
