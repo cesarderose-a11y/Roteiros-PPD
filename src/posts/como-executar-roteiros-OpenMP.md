@@ -6,7 +6,18 @@ summary: "Instruções para configurar os ambientes de execução dos roteiros O
 
 ## Execução dos roteiros em máquina local
 
-# Opção 1: máquina rodando Linux
+### Opção 1: terminal de um máquina rodando Linux nativo
+
+
+### Opção 2: terminal de uma máquina rodando MacOS 
+
+
+### Opção 3: emulador de Linux em uma máquina rodando Windows 
+
+## Execução dos roteiros em máquina remota (LAD)
+
+
+
 
 ```sh
 mpicc file.c -o file_exec
