@@ -52,3 +52,8 @@ gcc --version
 ```
 ## Execução dos roteiros em máquina remota (LAD)
 
+Os grupos receberão contas no LAD para realização dos trabalhos da disciplina. Esta conta executa um sistema Linux já configurado para a execução dos roteiros. 
+
+Esta opção acaba sendo um pouco mais trabalhosa pois requer o acesso remoto a máquina hospedeira do LAD e abertura de uma sessão toda a vez que for realizar um roteiro. Ao longo da disciplina serão passadas instruções específicas de como se fazer este acesso remoto. 
+
+
