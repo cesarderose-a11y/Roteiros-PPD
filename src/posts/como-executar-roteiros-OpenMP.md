@@ -39,15 +39,16 @@ Esta é a opção requer a instalação adicional de um emulador de Linux no Win
 wsl --install
 ```
 
-Esse comando habilita os recursos necessários do sistema, baixa o kernel do Linux mais recente e instala a distribuição padrão (Ubuntu). Após reiniciar a máquina, a janela do Ubuntu será aberta automaticamente. Aguarde a inicialização e digite um nome de usuário e senha para o ambiente Linux. Depois reinicie o computador e execute o WSL. No terminal faça a instalação do pacote `build essentials` que inclui o gcc com os comandos:
+Esse comando habilita os recursos necessários do sistema, baixa o kernel do Linux mais recente e instala a distribuição padrão (Ubuntu). Após reiniciar a máquina, a janela do Ubuntu será aberta automaticamente. Aguarde a inicialização e digite um nome de usuário e senha para o ambiente Linux. Depois reinicie o computador e execute o WSL. No terminal faça a instalação do pacote `build-essential` que inclui o gcc com os comandos:
 
 ```sh
 sudo apt update && sudo apt upgrade -y
 sudo apt install build-essential -y
 ```
+Agora verifique a versão instalada do gcc com o comando:
 
-pois o terminal nativo do MacOS executa uma versão de Unix (baseado no FreeBSD e Darwin). Isso significa que você encontrará praticamente a mesma interface de linha de comando do Linux, com algumas pequenas variações de comportamento e ferramentas de sistema distintas. Como precisamos apenas do gcc a partir da versão 4.2.0 de 2007 instalado, estas pequenas variações não atrapalham a execução dos roteiros (ver instruções específicas de instalação do gcc no MacOS). 
-
-
+```sh
+gcc --version
+```
 ## Execução dos roteiros em máquina remota (LAD)
 
