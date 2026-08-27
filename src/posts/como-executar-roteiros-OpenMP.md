@@ -18,7 +18,18 @@ Esta é a opção também requer pouca instalação adicional pois o terminal na
 
 > atentar que o MacOs vem com uma versão nativa de compilador para C chamada clang (com um alias para gcc), que tem também suporte ao OpenMP, mas com algumas pequenas particularidades que podem atrapalhar as execuções dos nosso roteiros. Para fins de compatibilidade o mais tranquilo é instalar o gcc e garantir que está chamado a versão correto.
 
+Para verificar a versão do gcc instalada na máquina utilizar comando:
 
+```sh
+gcc --version
+```
+
+ou 
+
+```sh
+gcc-14 --version
+```
+> substituir o número 14 pela versão do gcc instalado na sua máquina
 
 ### Opção 3: emulador de Linux em uma máquina rodando Windows 
 
