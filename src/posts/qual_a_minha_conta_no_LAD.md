@@ -12,15 +12,22 @@ Para que os alunos utilizem os nossos serviços, contas foram criadas para você
 
 Servidor: atlantica.lad.pucrs.br
  
-Acesso de casa (ou rede Wifi da PUCRS) pela sparta (com credenciais de aluno): ssh user@sparta.pucrs.br (usar primeira parte do e-mail PUCRS como usuário e senha do e-mail)
- 
-Acesso da PUCRS ou da sparta (com credenciais do grupo, TTT é a turma (310 ou 320) e GG é o número do grupo - ver abaixo): 
+Acesso de casa (ou rede Wifi da PUCRS) pela sparta (com credenciais de aluno): 
 
+```sh
+ssh usuário@sparta.pucrs.br 
+```
+
+> usar primeira parte do e-mail PUCRS como usuário (ex: cesar.derose) e a senha do e-mail 
+
+Acesso da PUCRS ou da sparta: 
+
+```sh
 ssh cpTTTGG@atlantica.lad.pucrs.br
+```
 
-Usernames: cpTTT00, cpTTT01 , cpTTT02, ... cpTTT25
-
-Usuários (por ordem do número do grupo):  00 Professor, 01 Grupo 01, 02 Grupo 02, 03 Grupo 03, e assim por diante ...
+> onde `TTT` é o número da turma (310 ou 320) e `GG` o número do grupo (01, 02 etc.)
+> `00` é a conta do professor
  
 Senha inicial (turma 310): CUtSpNiBoCMUQMGLwKW6
 Senha inicial (turma 320): Ijmupb2w6gE3qLBtbhpH
