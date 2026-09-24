@@ -45,7 +45,7 @@ srun --exclusive -N 2 -n 2 ./file_exec
 ## Execução de mais processos que processadores (acima do HT)
 
 ```sh
-srun --oversubscribe -N 2 -n 64 ./file_exec
+srun --overcommit -N 2 -n 64 ./file_exec
 ```
 
 
